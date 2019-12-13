@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="examples-dubbo-api" />
+        <module name="examples-dubbo-client1" />
+        <module name="examples-dubbo-client2" />
+        <module name="examples-dubbo-client2-adapter" />
+        <module name="examples-eureka-client1" />
+        <module name="examples-eureka-client2" />
+        <module name="examples-eureka-client2-adapter" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="examples-dubbo" target="1.8" />
+      <module name="examples-dubbo-api" target="1.8" />
+      <module name="examples-dubbo-client1" target="1.8" />
+      <module name="examples-dubbo-client2" target="1.8" />
+      <module name="examples-dubbo-client2-adapter" target="1.8" />
+      <module name="examples-eureka" target="1.8" />
+      <module name="examples-eureka-client1" target="1.8" />
+      <module name="examples-eureka-client2" target="1.8" />
+      <module name="examples-eureka-client2-adapter" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

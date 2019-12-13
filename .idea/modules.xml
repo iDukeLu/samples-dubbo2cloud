@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/examples-dubbo/examples-dubbo.iml" filepath="$PROJECT_DIR$/examples-dubbo/examples-dubbo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/examples-dubbo/examples-dubbo-api/examples-dubbo-api.iml" filepath="$PROJECT_DIR$/examples-dubbo/examples-dubbo-api/examples-dubbo-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/examples-dubbo/examples-dubbo-client1/examples-dubbo-client1.iml" filepath="$PROJECT_DIR$/examples-dubbo/examples-dubbo-client1/examples-dubbo-client1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/examples-dubbo/examples-dubbo-client2/examples-dubbo-client2.iml" filepath="$PROJECT_DIR$/examples-dubbo/examples-dubbo-client2/examples-dubbo-client2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/examples-dubbo/examples-dubbo-client2-adapter/examples-dubbo-client2-adapter.iml" filepath="$PROJECT_DIR$/examples-dubbo/examples-dubbo-client2-adapter/examples-dubbo-client2-adapter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/examples-dubbo2cloud.iml" filepath="$PROJECT_DIR$/.idea/examples-dubbo2cloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/examples-eureka/examples-eureka.iml" filepath="$PROJECT_DIR$/examples-eureka/examples-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/examples-eureka/examples-eureka-client1/examples-eureka-client1.iml" filepath="$PROJECT_DIR$/examples-eureka/examples-eureka-client1/examples-eureka-client1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/examples-eureka/examples-eureka-client2/examples-eureka-client2.iml" filepath="$PROJECT_DIR$/examples-eureka/examples-eureka-client2/examples-eureka-client2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/examples-eureka/examples-eureka-client2-adapter/examples-eureka-client2-adapter.iml" filepath="$PROJECT_DIR$/examples-eureka/examples-eureka-client2-adapter/examples-eureka-client2-adapter.iml" />
+    </modules>
+  </component>
+</project>

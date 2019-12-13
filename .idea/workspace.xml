@@ -1,0 +1,756 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3a9f37f2-7160-4199-84d5-69a2439b9831" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-server/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-server/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-server/src/main/java/com/sekorm/register/eureka/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-server/src/main/java/com/sekorm/register/eureka/config/EurekaStatusChangeListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-server/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-server/src/test/java/com/sekorm/register/eureka/ApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-analyzer1/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-analyzer1/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-analyzer1/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-analyzer1/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-analyzer1/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-analyzer1/src/main/java/com/sekorm/ik/analyzer1/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-analyzer1/src/main/java/com/sekorm/ik/analyzer1/business/controller/IkController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-analyzer1/src/main/java/com/sekorm/ik/analyzer1/business/service/IkService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-analyzer1/src/main/java/com/sekorm/ik/analyzer1/business/service/impl/IkServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-analyzer1/src/main/java/com/sekorm/ik/analyzer1/config/GlobalExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-analyzer1/src/main/java/com/sekorm/ik/analyzer1/config/WebConfigurer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-analyzer1/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-analyzer1/src/test/java/com/sekorm/ik/analyzer1/ApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-analyzer2/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-analyzer2/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-analyzer2/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-analyzer2/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-analyzer2/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-analyzer2/src/main/java/com/sekorm/ik/analyzer2/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-analyzer2/src/main/java/com/sekorm/ik/analyzer2/business/controller/IkController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-analyzer2/src/main/java/com/sekorm/ik/analyzer2/business/service/IkService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-analyzer2/src/main/java/com/sekorm/ik/analyzer2/business/service/impl/IkServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-analyzer2/src/main/java/com/sekorm/ik/analyzer2/config/GlobalExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-analyzer2/src/main/java/com/sekorm/ik/analyzer2/config/WebConfigurer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-analyzer2/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-analyzer2/src/test/java/com/sekorm/ik/analyzer2/ApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-analyzer3/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-analyzer3/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-analyzer3/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-analyzer3/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-analyzer3/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-analyzer3/src/main/java/com/sekorm/ik/analyzer3/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-analyzer3/src/main/java/com/sekorm/ik/analyzer3/business/controller/IkController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-analyzer3/src/main/java/com/sekorm/ik/analyzer3/business/service/IkService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-analyzer3/src/main/java/com/sekorm/ik/analyzer3/business/service/impl/IkServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-analyzer3/src/main/java/com/sekorm/ik/analyzer3/config/GlobalExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-analyzer3/src/main/java/com/sekorm/ik/analyzer3/config/WebConfigurer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-analyzer3/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-analyzer3/src/test/java/com/sekorm/ik/analyzer3/ApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-analyzer4/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-analyzer4/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-analyzer4/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-analyzer4/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-analyzer4/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-analyzer4/src/main/java/com/sekorm/ik/analyzer4/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-analyzer4/src/main/java/com/sekorm/ik/analyzer4/business/controller/IkController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-analyzer4/src/main/java/com/sekorm/ik/analyzer4/business/service/IkService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-analyzer4/src/main/java/com/sekorm/ik/analyzer4/business/service/impl/IkServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-analyzer4/src/main/java/com/sekorm/ik/analyzer4/config/GlobalExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-analyzer4/src/main/java/com/sekorm/ik/analyzer4/config/WebConfigurer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-analyzer4/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-analyzer4/src/test/java/com/sekorm/ik/analyzer4/ApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-analyzer5/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-analyzer5/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-analyzer5/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-analyzer5/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-analyzer5/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-analyzer5/src/main/java/com/sekorm/ik/analyzer5/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-analyzer5/src/main/java/com/sekorm/ik/analyzer5/business/controller/IkController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-analyzer5/src/main/java/com/sekorm/ik/analyzer5/business/service/IkService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-analyzer5/src/main/java/com/sekorm/ik/analyzer5/business/service/impl/IkServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-analyzer5/src/main/java/com/sekorm/ik/analyzer5/config/GlobalExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-analyzer5/src/main/java/com/sekorm/ik/analyzer5/config/WebConfigurer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-analyzer5/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-analyzer5/src/test/java/com/sekorm/ik/analyzer5/ApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-core/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../ik-core/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ik-core/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-core/src/main/java/com/sekorm/ik/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-core/src/main/java/com/sekorm/ik/config/Configuration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-core/src/main/java/com/sekorm/ik/config/DefaultConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-core/src/main/java/com/sekorm/ik/core/AnalyzeContext.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-core/src/main/java/com/sekorm/ik/core/CJKSegmenter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-core/src/main/java/com/sekorm/ik/core/CNQuantifierSegmenter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-core/src/main/java/com/sekorm/ik/core/CharacterUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-core/src/main/java/com/sekorm/ik/core/IKIndexSegmenter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-core/src/main/java/com/sekorm/ik/core/ISegmenter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-core/src/main/java/com/sekorm/ik/core/LetterSegmenter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-core/src/main/java/com/sekorm/ik/core/Lexeme.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-core/src/main/java/com/sekorm/ik/core/LexemePath.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-core/src/main/java/com/sekorm/ik/core/QuickSortSet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-core/src/main/java/com/sekorm/ik/core/Segmenter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-core/src/main/java/com/sekorm/ik/core/SplitLetterSegmenter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-core/src/main/java/com/sekorm/ik/dic/DictSegment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-core/src/main/java/com/sekorm/ik/dic/Dictionary.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-core/src/main/java/com/sekorm/ik/dic/Hit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-core/src/main/java/com/sekorm/ik/enums/AnalyzerTypeEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-core/src/main/java/com/sekorm/ik/enums/DicOperateTypeEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-core/src/main/java/com/sekorm/ik/enums/KeywordUnitTypeEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-core/src/main/java/com/sekorm/ik/pojo/dto/Response.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-core/src/main/java/com/sekorm/ik/pojo/vo/LexemeVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-core/src/main/java/com/sekorm/ik/service/DictionaryService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-core/src/main/java/com/sekorm/ik/service/MatchService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-core/src/main/java/com/sekorm/ik/service/SegmenterFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-core/src/main/resources/common/analyzer/IKAnalyzer.cfg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-core/src/main/resources/common/analyzer/ext.dic" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-core/src/main/resources/common/analyzer/main2012.dic" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-core/src/main/resources/common/analyzer/quantifier.dic" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-core/src/main/resources/common/analyzer/stopword.dic" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-core/src/test/java/com/sekorm/ik/core/ApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-scheduler/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-scheduler/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-scheduler/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-scheduler/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-scheduler/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-scheduler/src/main/java/com/sekorm/ik/scheduler/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-scheduler/src/main/java/com/sekorm/ik/scheduler/business/service/TestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-scheduler/src/main/java/com/sekorm/ik/scheduler/config/RedisConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-scheduler/src/main/java/com/sekorm/ik/scheduler/config/RestConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-scheduler/src/main/java/com/sekorm/ik/scheduler/pojo/Response.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-scheduler/src/main/java/com/sekorm/ik/scheduler/util/IkUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-scheduler/src/main/java/com/sekorm/ik/scheduler/util/RedisUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-scheduler/src/main/resources/log4j2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-scheduler/src/test/java/com/sekorm/ik/scheduler/ApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-task/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ik-task/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-task/src/main/java/com/sekorm/ik/task/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-task/src/main/java/com/sekorm/ik/task/business/Job.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ik-task/src/test/java/com/sekorm/ik/task/ApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pom.xml" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/examples-dubbo/examples-dubbo-api/target/" />
+    <ignored path="$PROJECT_DIR$/examples-dubbo/target/" />
+    <ignored path="$PROJECT_DIR$/examples-dubbo/examples-dubbo-client2/target/" />
+    <ignored path="$PROJECT_DIR$/examples-dubbo/examples-dubbo-client1/target/" />
+    <ignored path="$PROJECT_DIR$/examples-eureka/target/" />
+    <ignored path="$PROJECT_DIR$/examples-eureka/examples-eureka-client2/target/" />
+    <ignored path="$PROJECT_DIR$/examples-eureka/examples-eureka-client1/target/" />
+    <ignored path="$PROJECT_DIR$/examples-dubbo/examples-dubbo-client2-adapter/target/" />
+    <ignored path="$PROJECT_DIR$/examples-eureka/examples-eureka-client2-adapter/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>EUREKA-CLIENT2</find>
+      <find>eureka-client2</find>
+      <find>ribbon</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/examples-dubbo/pom.xml" />
+        <option value="$PROJECT_DIR$/examples-dubbo/examples-dubbo-client2-adapter/src/main/java/com/sekorm/examples/dubbo/client2/adapter/Application.java" />
+        <option value="$PROJECT_DIR$/examples-eureka/examples-eureka-client1/src/main/java/com/sekorm/examples/eureka/client1/business/feign/DubboClient2Controller.java" />
+        <option value="$PROJECT_DIR$/examples-eureka/examples-eureka-client1/src/main/java/com/sekorm/examples/eureka/client1/business/service/EurekaClient1Service.java" />
+        <option value="$PROJECT_DIR$/examples-dubbo/examples-dubbo-client2-adapter/src/main/java/com/sekorm/examples/dubbo/client2/adapter/business/dubbo/adapter/DubboClient2DubboAdapter.java" />
+        <option value="$PROJECT_DIR$/examples-eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/examples-eureka/examples-eureka-client2-adapter/src/main/java/com/sekorm/examples/eureka/client2/adapter/config/DubboClient2DubboAdapter.java" />
+        <option value="$PROJECT_DIR$/examples-eureka/examples-eureka-client2-adapter/src/main/java/com/sekorm/examples/eureka/client2/adapter/config/EurekaClient2Service.java" />
+        <option value="$PROJECT_DIR$/examples-dubbo/examples-dubbo-client2-adapter/src/main/java/com/sekorm/examples/dubbo/client2/adapter/business/dubbo/adapter/DubboClient2Adapter.java" />
+        <option value="$PROJECT_DIR$/examples-eureka/examples-eureka-client2-adapter/src/main/java/com/sekorm/examples/eureka/client2/adapter/config/EurekaClient2ServiceImpl.java" />
+        <option value="$PROJECT_DIR$/examples-dubbo/examples-dubbo-client2-adapter/src/main/java/com/sekorm/examples/dubbo/client2/adapter/config/DubboClient2Adapter.java" />
+        <option value="$PROJECT_DIR$/examples-eureka/examples-eureka-client2-adapter/src/main/java/com/sekorm/examples/eureka/client2/adapter/config/EurekaClient2Adapter.java" />
+        <option value="$PROJECT_DIR$/examples-dubbo/examples-dubbo-client2/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/examples-dubbo/examples-dubbo-client1/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/examples-dubbo/examples-dubbo-client1/src/main/java/com/sekorm/examples/dubbo/client1/business/controller/DubboClient1Controller.java" />
+        <option value="$PROJECT_DIR$/examples-dubbo/examples-dubbo-client1/src/main/java/com/sekorm/examples/dubbo/client1/business/service/DubboClient1Service.java" />
+        <option value="$PROJECT_DIR$/examples-dubbo/examples-dubbo-api/src/main/java/com/sekorm/examples/eureka/adapter/dubbo/api/business/dubbo/eurekaclient2/EurekaClient2Service.java" />
+        <option value="$PROJECT_DIR$/examples-dubbo/examples-dubbo-api/src/main/java/com/sekorm/examples/eureka/adapter/dubbo/api/business/dubbo/eurekaclient2/EurekaClient2Dubbo.java" />
+        <option value="$PROJECT_DIR$/examples-eureka/examples-eureka-client1/src/main/java/com/sekorm/examples/eureka/client1/business/feign/DubboClient2Feign.java" />
+        <option value="$PROJECT_DIR$/examples-eureka/examples-eureka-client2-adapter/src/main/java/com/sekorm/examples/eureka/client2/adapter/config/EurekaClient2Feign.java" />
+        <option value="$PROJECT_DIR$/examples-eureka/examples-eureka-client1/src/main/java/com/sekorm/examples/eureka/client1/business/feign/EurekaClient2Feign.java" />
+        <option value="$PROJECT_DIR$/examples-eureka/examples-eureka-client2-adapter/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/examples-eureka/examples-eureka-client2/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/examples-dubbo/examples-dubbo-client2-adapter/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/examples-eureka/examples-eureka-client2-adapter/src/main/java/com/sekorm/examples/eureka/client2/adapter/Application.java" />
+        <option value="$PROJECT_DIR$/examples-eureka/examples-eureka-client2-adapter/pom.xml" />
+        <option value="$PROJECT_DIR$/examples-dubbo/examples-dubbo-client1/src/main/java/com/sekorm/examples/dubbo/client1/business/service/impl/DubboClient1ServiceImpl.java" />
+        <option value="$PROJECT_DIR$/examples-eureka/examples-eureka-client1/src/main/java/com/sekorm/examples/eureka/client1/business/controller/EurekaClient1Controller.java" />
+        <option value="$PROJECT_DIR$/examples-eureka/examples-eureka-client1/src/main/java/com/sekorm/examples/eureka/client1/business/service/impl/EurekaClient1ServiceImpl.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/maven" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="examples :: eureka-client2-adapter" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="examples :: eureka-client2-adapter" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="examples :: eureka-client2-adapter" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="org.springframework.cloud:spring-cloud-starter-openfeign:2.1.3.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1176" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="examples-dubbo2cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="examples-dubbo2cloud" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576229527342" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../examples-dubbo-client2-adapter" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.gutterIcons" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="P:\project\examples-dubbo2cloud" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+    <option name="contentProportion" value="0.16829005" />
+  </component>
+  <component name="RunManager" selected="Spring Boot.Eureka-Client2-Adapter">
+    <configuration name="Dubbo-Client1" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="examples-dubbo-client1" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sekorm.examples.dubbo.client1.Application" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Dubbo-Client2-Adapter" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="examples-dubbo-client2-adapter" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sekorm.examples.dubbo.client2.adapter.Application" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Dubbo-Client2" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="examples-dubbo-client2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sekorm.examples.dubbo.client2.Application" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Eureka-Client1" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="examples-eureka-client1" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sekorm.examples.eureka.client1.Application" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Eureka-Client2-Adapter" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="examples-eureka-client2-adapter" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sekorm.examples.eureka.client2.adapter.Application" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Eureka-Client2" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="examples-eureka-client2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sekorm.examples.eureka.client2.Application" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.Eureka-Client1" />
+      <item itemvalue="Spring Boot.Eureka-Client2" />
+      <item itemvalue="Spring Boot.Dubbo-Client1" />
+      <item itemvalue="Spring Boot.Dubbo-Client2" />
+      <item itemvalue="Spring Boot.Dubbo-Client2-Adapter" />
+      <item itemvalue="Spring Boot.Eureka-Client2-Adapter" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3a9f37f2-7160-4199-84d5-69a2439b9831" name="Default Changelist" comment="" />
+      <created>1576122250376</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576122250376</updated>
+      <workItem from="1576122251926" duration="15678000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="15678000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="Capture Tool" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Web" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26492536" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" visible="true" weight="0.37488016" />
+      <window_info anchor="bottom" id="Spring" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39980826" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Maven" weight="0.30170575" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/examples-dubbo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples-dubbo/examples-dubbo-client2/src/main/java/com/sekorm/examples/dubbo/client2/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples-eureka/examples-eureka-client1/src/main/java/com/sekorm/examples/eureka/client1/business/service/EurekaClient1Service.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples-eureka/examples-eureka-client2/src/main/java/com/sekorm/examples/eureka/client2/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples-eureka/examples-eureka-client1/src/main/java/com/sekorm/examples/eureka/client1/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples-dubbo/examples-dubbo-client2-adapter/src/main/java/com/sekorm/examples/dubbo/client2/adapter/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-openfeign-core/2.1.3.RELEASE/spring-cloud-openfeign-core-2.1.3.RELEASE.jar!/org/springframework/cloud/openfeign/FeignClient.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples-eureka/examples-eureka-client2-adapter/src/main/java/com/sekorm/examples/eureka/client2/adapter/config/DubboClient2DubboAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="8" selection-start-line="8" selection-end-line="9" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples-dubbo/examples-dubbo-client2-adapter/src/main/java/com/sekorm/examples/dubbo/client2/adapter/config/DubboClient2Adapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-openfeign-core/2.1.3.RELEASE/spring-cloud-openfeign-core-2.1.3.RELEASE.jar!/org/springframework/cloud/openfeign/EnableFeignClients.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples-dubbo/examples-dubbo-client2/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples-dubbo/examples-dubbo-client1/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples-dubbo/examples-dubbo-api/src/main/java/com/sekorm/examples/eureka/adapter/dubbo/api/business/dubbo/eurekaclient2/EurekaClient2Dubbo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples-dubbo/examples-dubbo-client1/src/main/java/com/sekorm/examples/dubbo/client1/business/dubbo/DubboClient1DubboImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples-eureka/examples-eureka-client1/src/main/java/com/sekorm/examples/eureka/client1/business/feign/DubboClient2Feign.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples-eureka/examples-eureka-client1/src/main/java/com/sekorm/examples/eureka/client1/business/feign/EurekaClient2Feign.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples-eureka/examples-eureka-client2/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples-dubbo/examples-dubbo-client2-adapter/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="6" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples-eureka/examples-eureka-client2-adapter/src/main/java/com/sekorm/examples/eureka/client2/adapter/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter-netflix-eureka-client/2.1.3.RELEASE/spring-cloud-starter-netflix-eureka-client-2.1.3.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="43" column="59" selection-start-line="43" selection-start-column="53" selection-end-line="43" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples-eureka/examples-eureka-client2-adapter/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="14" lean-forward="true" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples-dubbo/examples-dubbo-client1/src/main/java/com/sekorm/examples/dubbo/client1/business/service/DubboClient1Service.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="21" lean-forward="true" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples-dubbo/examples-dubbo-client1/src/main/java/com/sekorm/examples/dubbo/client1/business/service/impl/DubboClient1ServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="38" column="17" lean-forward="true" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples-dubbo/examples-dubbo-client1/src/main/java/com/sekorm/examples/dubbo/client1/business/controller/DubboClient1Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="24" column="38" lean-forward="true" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples-dubbo/examples-dubbo-client2/src/main/java/com/sekorm/examples/dubbo/client2/business/dubbo/impl/DubboClient2DubboImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples-eureka/examples-eureka-client1/src/main/java/com/sekorm/examples/eureka/client1/business/controller/EurekaClient1Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="21" column="47" lean-forward="true" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples-eureka/examples-eureka-client1/src/main/java/com/sekorm/examples/eureka/client1/business/service/impl/EurekaClient1ServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="29" column="32" lean-forward="true" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples-eureka/examples-eureka-client2-adapter/src/main/java/com/sekorm/examples/eureka/client2/adapter/config/EurekaClient2Feign.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="27" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples-eureka/examples-eureka-client2-adapter/src/main/java/com/sekorm/examples/eureka/client2/adapter/config/EurekaClient2Adapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples-eureka/examples-eureka-client2-adapter/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="35" column="36" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples-eureka/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="46" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>examples-eureka-client1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

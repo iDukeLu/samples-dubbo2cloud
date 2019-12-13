@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.sekorm.examples</groupId>
+    <artifactId>examples-dubbo-client2-adapter</artifactId>
+    <version>1.0.0</version>
+    <name>examples :: dubbo-client2-adapter</name>
+    <description>Dubbo 客户端2的适配器</description>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <maven.compiler.encoding>UTF-8</maven.compiler.encoding>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <maven.compiler.compilerVersion>1.8</maven.compiler.compilerVersion>
+        <java.version>1.8</java.version>
+        <spring-boot.version>2.1.10.RELEASE</spring-boot.version>
+        <spring-cloud.version>Greenwich.SR3</spring-cloud.version>
+        <dubbo.version>2.7.3</dubbo.version>
+    </properties>
+
+    <dependencies>
+        <!-- Spring Boot Starter -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+        </dependency>
+        <!-- Dubbo Spring Boot Starter -->
+        <dependency>
+            <groupId>org.apache.dubbo</groupId>
+            <artifactId>dubbo-spring-boot-starter</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.dubbo</groupId>
+            <artifactId>dubbo</artifactId>
+        </dependency>
+        <!-- Zookeeper -->
+        <dependency>
+            <groupId>org.apache.dubbo</groupId>
+            <artifactId>dubbo-dependencies-zookeeper</artifactId>
+            <type>pom</type>
+        </dependency>
+        <!-- Dubbo API-->
+        <dependency>
+            <groupId>com.sekorm.examples</groupId>
+            <artifactId>examples-dubbo-api</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+
+        <!-- tools -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-devtools</artifactId>
+            <scope>runtime</scope>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+    <dependencyManagement>
+        <dependencies>
+            <!-- Spring Boot/Cloud-->
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-dependencies</artifactId>
+                <version>${spring-boot.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>${spring-cloud.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <!-- Apache Dubbo  -->
+            <dependency>
+                <groupId>org.apache.dubbo</groupId>
+                <artifactId>dubbo-dependencies-bom</artifactId>
+                <version>${dubbo.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.dubbo</groupId>
+                <artifactId>dubbo</artifactId>
+                <version>${dubbo.version}</version>
+                <exclusions>
+                    <exclusion>
+                        <groupId>org.springframework</groupId>
+                        <artifactId>spring</artifactId>
+                    </exclusion>
+                    <exclusion>
+                        <groupId>javax.servlet</groupId>
+                        <artifactId>servlet-api</artifactId>
+                    </exclusion>
+                    <exclusion>
+                        <groupId>log4j</groupId>
+                        <artifactId>log4j</artifactId>
+                    </exclusion>
+                </exclusions>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.dubbo</groupId>
+                <artifactId>dubbo-spring-boot-starter</artifactId>
+                <version>${dubbo.version}</version>
+            </dependency>
+            <!-- Zookeeper -->
+            <dependency>
+                <groupId>org.apache.dubbo</groupId>
+                <artifactId>dubbo-dependencies-zookeeper</artifactId>
+                <version>${dubbo.version}</version>
+                <type>pom</type>
+                <exclusions>
+                    <exclusion>
+                        <groupId>org.slf4j</groupId>
+                        <artifactId>slf4j-log4j12</artifactId>
+                    </exclusion>
+                    <exclusion>
+                        <artifactId>log4j</artifactId>
+                        <groupId>log4j</groupId>
+                    </exclusion>
+                </exclusions>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>

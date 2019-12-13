@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.sekorm.examples</groupId>
+    <artifactId>examples-dubbo</artifactId>
+    <version>1.0.0</version>
+    <packaging>pom</packaging>
+    <name>examples :: dubbo</name>
+    <description>Dubbo 微服务</description>
+
+    <modules>
+		<module>examples-dubbo-client1</module>
+        <module>examples-dubbo-client2</module>
+        <module>examples-dubbo-api</module>
+        <module>examples-dubbo-client2-adapter</module>
+    </modules>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <maven.compiler.encoding>UTF-8</maven.compiler.encoding>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <maven.compiler.compilerVersion>1.8</maven.compiler.compilerVersion>
+        <java.version>1.8</java.version>
+        <spring-boot.version>2.1.10.RELEASE</spring-boot.version>
+        <dubbo.version>2.7.3</dubbo.version>
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <!-- Spring Boot -->
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-dependencies</artifactId>
+                <version>${spring-boot.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <!-- Apache Dubbo  -->
+            <dependency>
+                <groupId>org.apache.dubbo</groupId>
+                <artifactId>dubbo-dependencies-bom</artifactId>
+                <version>${dubbo.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.dubbo</groupId>
+                <artifactId>dubbo</artifactId>
+                <version>${dubbo.version}</version>
+                <exclusions>
+                    <exclusion>
+                        <groupId>org.springframework</groupId>
+                        <artifactId>spring</artifactId>
+                    </exclusion>
+                    <exclusion>
+                        <groupId>javax.servlet</groupId>
+                        <artifactId>servlet-api</artifactId>
+                    </exclusion>
+                    <exclusion>
+                        <groupId>log4j</groupId>
+                        <artifactId>log4j</artifactId>
+                    </exclusion>
+                </exclusions>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.dubbo</groupId>
+                <artifactId>dubbo-spring-boot-starter</artifactId>
+                <version>${dubbo.version}</version>
+            </dependency>
+            <!-- Zookeeper -->
+            <dependency>
+                <groupId>org.apache.dubbo</groupId>
+                <artifactId>dubbo-dependencies-zookeeper</artifactId>
+                <version>${dubbo.version}</version>
+                <type>pom</type>
+                <exclusions>
+                    <exclusion>
+                        <groupId>org.slf4j</groupId>
+                        <artifactId>slf4j-log4j12</artifactId>
+                    </exclusion>
+                    <exclusion>
+                        <artifactId>log4j</artifactId>
+                        <groupId>log4j</groupId>
+                    </exclusion>
+                </exclusions>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.springframework.boot</groupId>
+                    <artifactId>spring-boot-maven-plugin</artifactId>
+                    <version>${spring-boot.version}</version>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
+
+</project>

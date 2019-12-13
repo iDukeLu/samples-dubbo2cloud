@@ -1,0 +1,18 @@
+server:
+  port: 19003
+
+spring:
+  application:
+    name: dubbo-client1
+
+dubbo:
+  scan:
+    base-packages: com.sekorm.**
+  protocol:
+    name: dubbo
+    port: ${random.int(30000)}
+  registry:
+    address: zookeeper://172.16.20.213:2181
+    group: dev
+  consumer:
+    check: false
