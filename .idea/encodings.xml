@@ -10,6 +10,7 @@
     <file url="file://$PROJECT_DIR$/examples-eureka/examples-eureka-client1" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/examples-eureka/examples-eureka-client2" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/examples-eureka/examples-eureka-client2-adapter" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/examples-eureka/examples-eureka-general-adapter" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

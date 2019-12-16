@@ -13,6 +13,9 @@
       <change beforePath="$PROJECT_DIR$/../eureka-server/src/main/java/com/sekorm/register/eureka/config/EurekaStatusChangeListener.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../eureka-server/src/main/resources/application.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../eureka-server/src/test/java/com/sekorm/register/eureka/ApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples-eureka/examples-eureka-client2-adapter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/examples-eureka/examples-eureka-client2-adapter/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples-eureka/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/examples-eureka/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ik-analyzer1/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../ik-analyzer1/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../ik-analyzer1/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
@@ -141,6 +144,7 @@
     <ignored path="$PROJECT_DIR$/examples-eureka/examples-eureka-client1/target/" />
     <ignored path="$PROJECT_DIR$/examples-dubbo/examples-dubbo-client2-adapter/target/" />
     <ignored path="$PROJECT_DIR$/examples-eureka/examples-eureka-client2-adapter/target/" />
+    <ignored path="$PROJECT_DIR$/examples-eureka/examples-eureka-general-adapter/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,10 +157,13 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="545">
+                <caret line="63" selection-start-line="63" selection-end-line="63" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -180,7 +187,7 @@
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -190,7 +197,6 @@
         <option value="$PROJECT_DIR$/examples-eureka/examples-eureka-client1/src/main/java/com/sekorm/examples/eureka/client1/business/feign/DubboClient2Controller.java" />
         <option value="$PROJECT_DIR$/examples-eureka/examples-eureka-client1/src/main/java/com/sekorm/examples/eureka/client1/business/service/EurekaClient1Service.java" />
         <option value="$PROJECT_DIR$/examples-dubbo/examples-dubbo-client2-adapter/src/main/java/com/sekorm/examples/dubbo/client2/adapter/business/dubbo/adapter/DubboClient2DubboAdapter.java" />
-        <option value="$PROJECT_DIR$/examples-eureka/pom.xml" />
         <option value="$PROJECT_DIR$/examples-eureka/examples-eureka-client2-adapter/src/main/java/com/sekorm/examples/eureka/client2/adapter/config/DubboClient2DubboAdapter.java" />
         <option value="$PROJECT_DIR$/examples-eureka/examples-eureka-client2-adapter/src/main/java/com/sekorm/examples/eureka/client2/adapter/config/EurekaClient2Service.java" />
         <option value="$PROJECT_DIR$/examples-dubbo/examples-dubbo-client2-adapter/src/main/java/com/sekorm/examples/dubbo/client2/adapter/business/dubbo/adapter/DubboClient2Adapter.java" />
@@ -210,11 +216,26 @@
         <option value="$PROJECT_DIR$/examples-eureka/examples-eureka-client2/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/examples-dubbo/examples-dubbo-client2-adapter/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/examples-eureka/examples-eureka-client2-adapter/src/main/java/com/sekorm/examples/eureka/client2/adapter/Application.java" />
-        <option value="$PROJECT_DIR$/examples-eureka/examples-eureka-client2-adapter/pom.xml" />
         <option value="$PROJECT_DIR$/examples-dubbo/examples-dubbo-client1/src/main/java/com/sekorm/examples/dubbo/client1/business/service/impl/DubboClient1ServiceImpl.java" />
         <option value="$PROJECT_DIR$/examples-eureka/examples-eureka-client1/src/main/java/com/sekorm/examples/eureka/client1/business/controller/EurekaClient1Controller.java" />
         <option value="$PROJECT_DIR$/examples-eureka/examples-eureka-client1/src/main/java/com/sekorm/examples/eureka/client1/business/service/impl/EurekaClient1ServiceImpl.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/examples-eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/examples-eureka/examples-eureka-general-adapter/pom.xml" />
+        <option value="$PROJECT_DIR$/examples-eureka/examples-eureka-client2-adapter/pom.xml" />
+        <option value="$PROJECT_DIR$/examples-eureka/examples-eureka-general-adapter/src/main/java/com/sekorm/examples/eureka/general/adapter/config/feign/EurekaGeneralAdapter.java" />
+        <option value="$PROJECT_DIR$/examples-eureka/examples-eureka-general-adapter/src/main/java/com/sekorm/examples/eureka/general/adapter/feign/EurekaClient2Feign.java" />
+        <option value="$PROJECT_DIR$/examples-eureka/examples-eureka-general-adapter/src/main/java/com/sekorm/examples/eureka/general/adapter/config/EurekaGeneralAdapter.java" />
+        <option value="$PROJECT_DIR$/examples-eureka/examples-eureka-general-adapter/src/main/java/com/sekorm/examples/eureka/general/adapter/eureka/client1/EurekaClient2Feign.java" />
+        <option value="$PROJECT_DIR$/examples-eureka/examples-eureka-general-adapter/src/main/java/com/sekorm/examples/eureka/general/adapter/eureka/client2/EurekaClient2Feign.java" />
+        <option value="$PROJECT_DIR$/examples-eureka/examples-eureka-general-adapter/src/main/java/com/sekorm/examples/eureka/general/adapter/eureka/client1/EurekaGeneralAdapter.java" />
+        <option value="$PROJECT_DIR$/examples-eureka/examples-eureka-general-adapter/src/main/java/com/sekorm/examples/eureka/general/adapter/eureka/client1/EurekaClient2Adapter.java" />
+        <option value="$PROJECT_DIR$/examples-dubbo/examples-dubbo-api/src/main/java/com/sekorm/examples/eureka/adapter/dubbo/api/business/dubbo/eurekaclient2/EurekaClient1Dubbo.java" />
+        <option value="$PROJECT_DIR$/examples-dubbo/examples-dubbo-api/src/main/java/com/sekorm/examples/eureka/adapter/dubbo/api/business/dubbo/eurekaclient1/EurekaClient1Dubbo.java" />
+        <option value="$PROJECT_DIR$/examples-eureka/examples-eureka-general-adapter/src/main/java/com/sekorm/examples/eureka/general/adapter/eureka/client1/EurekaClient1Feign.java" />
+        <option value="$PROJECT_DIR$/examples-eureka/examples-eureka-general-adapter/src/main/java/com/sekorm/examples/eureka/general/adapter/eureka/client1/EurekaClient1Adapter.java" />
+        <option value="$PROJECT_DIR$/examples-eureka/examples-eureka-general-adapter/src/main/java/com/sekorm/examples/eureka/general/adapter/eureka/client2/EurekaClient2Adapter.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -228,6 +249,15 @@
   <component name="MavenProjectNavigator">
     <treeState>
       <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="examples :: dubbo-api" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="examples :: dubbo-api" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="examples :: eureka-client2-adapter" type="9519ce18:MavenProjectsStructure$ProjectNode" />
@@ -281,7 +311,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576229527342" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576468568805" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../examples-dubbo-client2-adapter" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -292,6 +322,11 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.gutterIcons" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.sekorm.examples.eureka.adapter.dubbo.api.business.dubbo.eurekaclient2" />
+      <recent name="com.sekorm.examples.eureka.general.adapter.eureka.client1" />
+      <recent name="com.sekorm.examples.eureka.general.adapter.eureka.client2" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="P:\project\examples-dubbo2cloud" />
     </key>
@@ -382,16 +417,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1576122250376</updated>
-      <workItem from="1576122251926" duration="15678000" />
+      <workItem from="1576122251926" duration="18758000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15678000" />
+    <option name="totallyTimeSpent" value="18758000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
@@ -399,9 +433,9 @@
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Web" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26492536" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26492536" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" visible="true" weight="0.37488016" />
+      <window_info anchor="bottom" id="Run Dashboard" weight="0.37488016" />
       <window_info anchor="bottom" id="Spring" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
@@ -412,7 +446,7 @@
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32981783" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39980826" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -520,13 +554,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples-dubbo/examples-dubbo-api/src/main/java/com/sekorm/examples/eureka/adapter/dubbo/api/business/dubbo/eurekaclient2/EurekaClient2Dubbo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/examples-dubbo/examples-dubbo-client1/src/main/java/com/sekorm/examples/dubbo/client1/business/dubbo/DubboClient1DubboImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -624,6 +651,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples-eureka/examples-eureka-client2-adapter/src/main/java/com/sekorm/examples/eureka/client2/adapter/config/EurekaClient2Adapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/examples-eureka/examples-eureka-client2-adapter/src/main/java/com/sekorm/examples/eureka/client2/adapter/config/EurekaClient2Feign.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
@@ -634,34 +678,76 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples-eureka/examples-eureka-client2-adapter/src/main/java/com/sekorm/examples/eureka/client2/adapter/config/EurekaClient2Adapter.java">
+    <entry file="file://$PROJECT_DIR$/examples-eureka/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="304">
+          <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/examples-eureka/examples-eureka-client2-adapter/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="35" column="36" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="36" />
+        <state relative-caret-position="247">
+          <caret line="25" column="42" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples-eureka/pom.xml">
+    <entry file="file://$PROJECT_DIR$/examples-eureka/examples-eureka-general-adapter/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="46" selection-end-line="64" />
+        <state relative-caret-position="380">
+          <caret line="32" column="40" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/examples-eureka/examples-eureka-general-adapter/src/main/java/com/sekorm/examples/eureka/general/adapter/eureka/client2/EurekaClient2Feign.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="171">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples-dubbo/examples-dubbo-api/src/main/java/com/sekorm/examples/eureka/adapter/dubbo/api/business/dubbo/eurekaclient1/EurekaClient1Dubbo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples-dubbo/examples-dubbo-api/src/main/java/com/sekorm/examples/eureka/adapter/dubbo/api/business/dubbo/eurekaclient2/EurekaClient2Dubbo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples-eureka/examples-eureka-general-adapter/src/main/java/com/sekorm/examples/eureka/general/adapter/eureka/client1/EurekaClient1Feign.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples-eureka/examples-eureka-general-adapter/src/main/java/com/sekorm/examples/eureka/general/adapter/eureka/client2/EurekaClient2Adapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples-eureka/examples-eureka-general-adapter/src/main/java/com/sekorm/examples/eureka/general/adapter/eureka/client1/EurekaClient1Adapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="545">
+            <caret line="63" selection-start-line="63" selection-end-line="63" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

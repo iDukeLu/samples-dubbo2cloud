@@ -14,6 +14,7 @@
         <module>examples-eureka-client1</module>
         <module>examples-eureka-client2</module>
         <module>examples-eureka-client2-adapter</module>
+        <module>examples-eureka-general-adapter</module>
     </modules>
 
     <properties>

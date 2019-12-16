@@ -4,10 +4,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.sekorm.examples</groupId>
-    <artifactId>examples-eureka-client2-adapter</artifactId>
+    <artifactId>examples-eureka-general-adapter</artifactId>
     <version>1.0.0</version>
-    <name>examples :: eureka-client2-adapter</name>
-    <description>Dubbo 客户端2的适配器</description>
+    <name>examples :: eureka-general-adapter</name>
+    <description>Eureka 客户端通用适配器</description>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

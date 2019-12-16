@@ -12,6 +12,7 @@
       <module fileurl="file://$PROJECT_DIR$/examples-eureka/examples-eureka-client1/examples-eureka-client1.iml" filepath="$PROJECT_DIR$/examples-eureka/examples-eureka-client1/examples-eureka-client1.iml" />
       <module fileurl="file://$PROJECT_DIR$/examples-eureka/examples-eureka-client2/examples-eureka-client2.iml" filepath="$PROJECT_DIR$/examples-eureka/examples-eureka-client2/examples-eureka-client2.iml" />
       <module fileurl="file://$PROJECT_DIR$/examples-eureka/examples-eureka-client2-adapter/examples-eureka-client2-adapter.iml" filepath="$PROJECT_DIR$/examples-eureka/examples-eureka-client2-adapter/examples-eureka-client2-adapter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/examples-eureka/examples-eureka-general-adapter/examples-eureka-general-adapter.iml" filepath="$PROJECT_DIR$/examples-eureka/examples-eureka-general-adapter/examples-eureka-general-adapter.iml" />
     </modules>
   </component>
 </project>
